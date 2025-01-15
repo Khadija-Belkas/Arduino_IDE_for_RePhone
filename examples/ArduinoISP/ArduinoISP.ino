@@ -2,6 +2,7 @@
 // Copyright (c) 2008-2011 Randall Bohn
 // If you require a license, see
 //     http://www.opensource.org/licenses/bsd-license.php
+khadija 
 //
 // This sketch turns the Arduino into a AVRISP
 // using the following arduino pins:
@@ -206,7 +207,7 @@ void breply(uint8_t b) {
     Serial.print((char)STK_NOSYNC);
   }
 }
-
+khadiha
 void get_version(uint8_t c) {
   switch (c) {
     case 0x80:
